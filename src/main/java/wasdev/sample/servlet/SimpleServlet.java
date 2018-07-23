@@ -23,5 +23,9 @@ public class SimpleServlet extends HttpServlet {
         response.setContentType("text/html");
         response.getWriter().print("Hello World!");
     }
+    
+    public static String getHelloWorld(){
+    	return "Hello World";
+    }
 
 }
