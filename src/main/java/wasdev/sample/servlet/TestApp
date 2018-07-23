@@ -6,7 +6,7 @@ public class TestApp {
 	@Test
 	public void testPrintHelloWorld() {
 
-		Assert.assertEquals(App.getHelloWorld(), "Hello World");
+		Assert.assertEquals(SimpleServlet.getHelloWorld(), "Hello World");
 
 	}
 
